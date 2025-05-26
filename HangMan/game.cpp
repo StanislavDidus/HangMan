@@ -37,7 +37,7 @@ namespace Tmpl8
 
 	GameStatus current_game_status;
 
-	float finish_time = 1500.f;
+	float finish_time = 1.5f;
 	float finish_timer = 0.f;
 
 	void Game::SubmitLetter()
@@ -92,13 +92,15 @@ namespace Tmpl8
 
 	void Game::Init()
 	{
-		srand(time(NULL));
+		srand((unsigned int)time(NULL));
 
 		//Read words from the file
 		FILE* f = fopen("Word_List.txt", "r");
 		char buffer[100];
 		while (fscanf(f, "%s", &buffer) == 1)
+		{
 			words.push_back(buffer);
+		}
 		
 		fclose(f);
 
@@ -137,11 +139,14 @@ namespace Tmpl8
 	void Game::Tick(float deltaTime)
 	{
 		screen->Clear(0);
+
+		deltaTime /= 1000.f;
+
 		switch (current_game_status)
 		{
 		case GameStatus::Play:
 			//Draw hang man
-			hangman.DrawScaled(ScreenWidth / 2 - hangman_size_x / 2, ScreenHeight / 2 - hangman_size_y / 2 - 50.f, hangman_size_x, hangman_size_y, screen);
+			hangman.DrawScaled(ScreenWidth / 2 - hangman_size_x / 2, ScreenHeight / 2 - hangman_size_y / 2 - 50, hangman_size_x, hangman_size_y, screen);
 			//Print uknown word
 			screen->PrintScaled(&hidden_word[0], ScreenWidth / 2 - (5 * scale * lc + (lc - 1) * 6) / 2, 400, scale, scale, Tmpl8::Pixel(0xFFFFFF));
 			//Print chosen letter

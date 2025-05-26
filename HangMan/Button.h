@@ -18,7 +18,7 @@ struct Button
 	int x1, y1, x2, y2;
 	std::function<void()> func;
 	std::string text;
-	float text_scale;
+	int text_scale;
 
 	Tmpl8::Pixel color;
 
