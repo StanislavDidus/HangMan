@@ -109,7 +109,7 @@ namespace Tmpl8
 		//Init buttons
 		buttons.emplace_back(0, 5, 0, 0, [this]() { printf("Restart\n"); Restart(); }, "Restart", 5, Tmpl8::Pixel(0x00FF00));
 		buttons.back().CallibrateScale();
-		buttons.emplace_back(0, 35, 0, 0, [this]() { printf("Quit\n"); }, "Quit", 5, Tmpl8::Pixel(0xFF0000));
+		buttons.emplace_back(0, 35, 0, 0, [this]() { printf("Quit\n"); std::exit(0); }, "Quit", 5, Tmpl8::Pixel(0xFF0000));
 		buttons.back().CallibrateScale();
 	}
 

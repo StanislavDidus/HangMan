@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|solutionrelative:game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|C:\\GitHubProjects\\HangMan\\HangMan\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|solutionrelative:game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|C:\\GitHubProjects\\HangMan\\HangMan\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|solutionrelative:Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|C:\\GitHubProjects\\HangMan\\HangMan\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|solutionrelative:Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|C:\\GitHubProjects\\HangMan\\HangMan\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}|tmpl_2019-08.vcxproj|solutionrelative:game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Button.h",
               "DocumentMoniker": "C:\\GitHubProjects\\HangMan\\HangMan\\Button.h",
               "RelativeDocumentMoniker": "Button.h",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Button.cpp",
               "DocumentMoniker": "C:\\GitHubProjects\\HangMan\\HangMan\\Button.cpp",
               "RelativeDocumentMoniker": "Button.cpp",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Button.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-26T17:04:46.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T17:04:46.246Z"
             },
             {
               "$type": "Document",
@@ -59,22 +58,22 @@
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\GitHubProjects\\HangMan\\HangMan\\game.cpp",
               "RelativeDocumentMoniker": "game.cpp",
-              "ToolTip": "C:\\GitHubProjects\\HangMan\\HangMan\\game.cpp*",
-              "RelativeToolTip": "game.cpp*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\GitHubProjects\\HangMan\\HangMan\\game.cpp",
+              "RelativeToolTip": "game.cpp",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAGYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-26T16:42:01.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "game.h",
               "DocumentMoniker": "C:\\GitHubProjects\\HangMan\\HangMan\\game.h",
               "RelativeDocumentMoniker": "game.h",
               "ToolTip": "C:\\GitHubProjects\\HangMan\\HangMan\\game.h",
               "RelativeToolTip": "game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-26T16:42:00.486Z"
             }
